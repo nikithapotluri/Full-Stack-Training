@@ -1,0 +1,30 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.flexi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid white;
+    box-shadow: 5px 10px rgb(174, 172, 172);
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+    padding: auto;
+    padding-top: 40px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.next{
+    text-align: center;
+}

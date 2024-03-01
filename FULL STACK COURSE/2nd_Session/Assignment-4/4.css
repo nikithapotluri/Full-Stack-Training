@@ -1,0 +1,55 @@
+h1,h2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.red2{
+    color: rgb(199, 9, 9);
+}
+
+.red1{
+    color: rgb(234, 66, 66);
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    width: 200px;
+}
+
+.container{
+    float: right;
+    width: 70%;
+    margin-left: 0px;
+}
+
+.violet{
+    color: rgb(48, 42, 154);
+}
+
+.first{
+    background-color: beige;
+    padding: 20px;
+    box-shadow: 4px 3px 3px black;
+    margin-bottom: 50px;
+}
+
+.container2{
+    float: right;
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.container3{
+    float: right;
+    width: 300px;
+    margin-left: 0px;
+}
+

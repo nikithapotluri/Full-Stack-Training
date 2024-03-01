@@ -1,0 +1,25 @@
+.font{
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 600px;
+    padding: 20px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings:
+          "wdth" 100;
+}
+
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/84/New_York_City_skyline.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.centre{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}

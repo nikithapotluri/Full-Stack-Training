@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form>
+
+        <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" value="default username" autocomplete="off" required>
+        </div>
+
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" placeholder="Ex: Alex@1423" required minlength="5">
+        </div>
+
+        <div>
+            <label for="num">Amount</label>
+            <input type="number" id="num">
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="mail">e-mail</label>
+            <input type="email" id="mail">
+        </div>
+
+        <div>
+            <div>
+                <input type="checkbox" name="" id="check">
+                <label for="check">Front end</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="" id="back">
+                <label for="back">Back end</label>
+            </div>
+<div>
+            <label>Select gender</label>
+            <div>
+                <input type="radio" name="gender" id="ml">
+                <label for="ml">Male</label>
+            </div>
+
+            <div>
+                <input type="radio" name="gender" id="fml">
+                <label for="fml">Female</label>
+            </div>
+        </div>
+</div>
+
+<div>
+<label for="file">Choose file</label>
+        <input type="file" name="" id="file">
+    </div>
+
+<div>
+    <label for="feed">Write feedback</label>
+    <textarea name="" id="feed" cols="30" rows="5"></textarea>
+</div>
+
+<div>
+    <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</div>
+        <button type="submit">Login</button>
+
+    </form>
+</body>
+</html>

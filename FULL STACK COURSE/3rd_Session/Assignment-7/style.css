@@ -1,0 +1,19 @@
+table,th,td{
+    border: 2px solid maroon;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    padding: 10px;
+    width:600px;
+    background-color: rgb(249, 249, 223);
+    color: rgb(119, 11, 119);
+}
+
+table{
+    margin-top: 20px;;
+}
+
+.bold{
+    font-weight: bold;
+}

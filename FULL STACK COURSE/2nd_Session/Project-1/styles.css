@@ -1,0 +1,58 @@
+/*reset margin & padding*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header,.footer{
+    background-color: rgb(212, 209, 209);
+    text-align: center;
+    padding: 20px;
+}
+
+.emp1{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    margin-left: 250px;
+    text-align: center;
+    /*border: 3px solid black;*/
+    padding: 5rem;
+    background-color: #b7ecf3;
+    box-shadow: 5px 4px #c3edf2;
+    border-radius: 50%;   
+}
+
+.emp2{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+    /*border: 3px solid black;*/
+    padding: 5rem;
+    background-color: #b7ecf3;
+    box-shadow: 5px 4px #c3edf2;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* Optional: align content vertically (adjust as needed) */
+    align-items: center;
+  }
+
+.Bold{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+img{
+    width: 10rem;
+    border-radius: 50%;
+}
+
